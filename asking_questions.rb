@@ -1,0 +1,19 @@
+print "How old are you  ?"
+age = gets.chomp
+print "How tall are you ?"
+height = gets.chomp
+print "How much do you weight ?"
+weight = gets.chomp
+
+puts "So, you're #{age} old, #{height} tall and #{weight} heavy.
+ARE THERE TRUE ?
+(Y)ES or (N)O"
+answer = gets.chomp
+
+if answer == "Y" || "YES"
+    puts "Congratulations"
+elsif answer == "N" || "NO"
+    puts "Try again :("
+else puts "Doğru yaz"
+end
+

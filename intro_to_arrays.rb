@@ -1,0 +1,4 @@
+p []
+p [].class
+
+numbers = []
